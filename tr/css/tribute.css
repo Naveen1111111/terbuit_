@@ -1,0 +1,51 @@
+
+ .row{
+      display: flex;
+	  flax-wrap: wrap;
+	  padding: 0 4px;
+	  }
+/* creating 3 equal columns that next to each other */
+  .column{
+            flex:33.33%;
+	    	max-width: 40%;
+		    padding: 0 4px;
+		}
+	.column img {
+     margin-top: 8px;
+     vertical-align: middle;
+     width: 100%;
+    }	 
+    
+/* responsive layout - makes a two column- lyout instead of three column*/	
+   @media screen and (max-width: 800px){
+    .column{
+	  flex:50%;
+	  max-width: 50%;
+	  }
+	}
+	   @media screen and (max-width: 600px){
+    .column{
+	  flex:100%;
+	  max-width: 100%;
+	  }
+	}
+#terbuit-link{
+	color:red;
+	font-weight:bold;
+	font-style:background-attachment:
+}
+
+.img-div{
+  justify-content: center;
+}
+  
+ .img-caption{
+	font-size: 30px;
+    }
+	
+.center{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}  
